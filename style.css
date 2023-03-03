@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .banner-section{
+    width: auto;
+    height: 100vh;
+    background-image: url("./images/banner/banner2.png") ;
+    background-blend-mode: overlay;
+    background-position: center; 
+    display: flex;
+   justify-content: center;
+   
+    align-items:center;
+   text-align: end;
+   margin: 10px;
+   
+
+}
+.text-content{
+    margin-top: -130px;   
+margin-left: 500px;
+}
+.title{
+    font-weight: 700;
+font-size: 65px;
+margin-bottom:20px ;
+
+}
+.sub-title{
+    font-weight: 400;
+font-size: 16px;
+}
+.contact-btn{
+    margin-top: 40px;
+    width: 160px;
+height: 64px;
+background: #F15B22;
+color: #FFFFFF;
+ 
+}
+.check-continer{
+
+width: 1072px;
+ height: 728px;
+    
+   margin: 60px 100px 40px 100px;
+}
+.check-img{
+    width:525px ;
+    height: auto;
+    margin-right: 40px;
+}
+.main-body{
+    display: flex;
+    align-items: center;
+}
+.check-text{
+    color: green;
+}
+.my-plan{
+    width: 1141px;
+    height: 400px;
+   
+   margin: 60px 100px 40px 200px;
+ 
+}
+.title{
+    text-align: center;
+}
+.habit-plan{
+    display: flex;
+   align-items: center;
+   justify-items: center;
+   gap: 40px;
+   margin-left: 170px;
+  
+}
+
+.img{
+    width: 80px;
+    height: 80px;
+    margin: 5px 20px 5px 20px
+}
+.plan-text{
+    margin: 5px 20px 5px 20px;
+}
+.contact{
+    padding-top: 100px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+form{
+    margin-top: 50px;
+}
+.myname, .myemail{
+    padding: 5px;
+    outline: none;
+    border-radius: 8px;
+    margin: 5px;
+    color: #000;
+    font-weight: bold;
+}
+.mytext{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    outline: none;
+    padding: 10px;
+    border-radius: 8px;
+    color: #000;
+    font-weight: bold;
+}
+ .footer{
+     background-color: #000;
+     color:rgb(167, 134, 134);
+ }
+ .footer-content{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 275px;
+
+ }
+ .icons-section{
+    width: 45%;
+ }
+ .subscribe-section{
+margin-right: 50px;
+
+ }
+ .title-footer{
+    margin-top: 90px;
+    color: white;
+    font-weight: 700;
+    font-size: larger;
+ }
+ .title-subscribe{
+    margin-top: -5px;
+    color: white;
+    font-weight: 700;
+    font-size: larger;
+ }
+ .subscribe-btn{
+    margin-top: 5px;
+    width: 160px;
+height: 40px;
+    color: #F15B22;
+    background-color: white;
+
+ }
+ .icons-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;}
+    .footer-subtile{
+        color: white;
+
+    }
+    .link_btn{
+        text-decoration: none;
+        background: linear-gradient(45deg,salmon, tomato);
+        padding: 10px 20px;
+        border-radius: 10px;
+        color: #fff;
+        font-weight: 700;
+    }
